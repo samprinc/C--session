@@ -26,6 +26,7 @@ public class Student
 
     // This 'Name' property can be read by anyone, but only set
     // by code within this class (or child classes).
+    // this is the reference to the student's name
     public string Name { get; protected set; }
 
     // This 'StudentID' can be read by anyone, but can ONLY
